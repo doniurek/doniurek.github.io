@@ -1,0 +1,30 @@
+body {
+    background-color: #F6F7F9;
+    color: #464C50;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#socials img {
+    opacity: 0.7;
+}
+
+#homepage-return {
+    font-size: 40px;
+    font-weight: 700;
+}
