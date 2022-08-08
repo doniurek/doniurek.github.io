@@ -10,6 +10,10 @@ body {
 h1 {
     font-size: 40px;
     font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15vh;
+    margin: 0 0 0 -3.5vw;
 }
 
 h2 {
@@ -23,6 +27,15 @@ ul {
     padding: 0;
 }
 
+article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 5vh 15vw;
+}
+
 #homepage {
     height: 100vh;
     object-fit: cover;
@@ -34,8 +47,15 @@ ul {
 }
 
 #homepage-return {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 0 0 2vw;
+    transform: translateY(-50%);
     font-size: 40px;
     font-weight: 700;
+    text-align: center;
 }
 
 #socials img {
@@ -77,4 +97,26 @@ nav a:active {
 
 .center {
     text-align: center;
+}
+
+.top-ornament {
+    position: absolute;
+    width: 25vw;
+    height: 15vh;
+    left: 0vw;
+    top: 0vh;
+
+    background: #C6B0A2;
+    border-radius: 0px 112px 112px 0px;
+}
+
+.bottom-ornament {
+    position: absolute;
+    width: 10vw;
+    height: 15vh;
+    left: 90vw;
+    top: 85vh;
+
+    background: #7DBCCE;
+    border-radius: 80px 0px 0px 80px;
 }
