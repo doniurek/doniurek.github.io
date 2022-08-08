@@ -16,14 +16,21 @@ h2 {
     font-weight: 700;
 }
 
-li {
+ul {
     font-size: 16px;
     font-weight: 300;
+    list-style-type: none;
+    padding: 0;
 }
 
 #homepage {
     height: 100vh;
     object-fit: cover;
+}
+
+#homepage-heading {
+    margin-top: 25vh;
+    margin-bottom: 5vh;
 }
 
 #homepage-return {
@@ -32,10 +39,42 @@ li {
 }
 
 #socials img {
-    opacity: 0.7;
+    opacity: 0.6;
+    width: 30px;
+    height: 30px;
+}
+
+#socials {
+    margin-top: 25vh;
+}
+
+#socials img:hover {
+    opacity: 0.8;
+}
+
+a:link {
+    text-decoration: none; color: #464C50;
+}
+
+a:visited {
+    text-decoration: none; color: #464C50;
+}
+
+
+nav a:hover {
+    text-decoration: underline; color: #464C50;
+}
+
+
+nav a:active {
+    text-decoration: underline; color: #464C50;
 }
 
 .half-page-width {
     width: calc(50vw - (50vw - 50%));
     float: left;
+}
+
+.center {
+    text-align: center;
 }
