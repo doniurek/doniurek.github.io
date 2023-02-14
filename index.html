@@ -1,38 +1,60 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Aldona Głębicka</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-</head>
-<body>
-    <header class="half-page-width">
-        <h1 class="center" id="homepage-heading">Aldona Głębicka</h1>
-        <nav>
-            <ul class="center">
-                <li>
-                    <a href="about-me.html">about me</a>
-                </li>
-                <li>
-                    <a href="education.html">education</a>
-                </li>
-                <li>
-                    <a href="experience.html">experience</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="center" id="socials">
-            <a href="https://www.linkedin.com/in/aldonaglebicka/">
-                <img src="linkedin-icon.png" alt="LinkedIn icon">
-            </a>
-            <a href="https://github.com/doniurek">
-                <img src="github-icon.png" alt="GitHub icon">
-            </a>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div id= "main" class="container-fluid text-center">
+      <div class="row p-0">
+        <div class="col-6 p-0 align-self-center">
+          <div class="row m-4">
+            <h1 class="display-4">Aldona Głębicka</h1>
+          </div>
+          <div class="row m-5">
+            <nav>
+              <ul class="list-unstyled">
+                  <li>
+                      <a href="about-me.html" class="link-secondary">about me</a>
+                  </li>
+                  <li>
+                      <a href="education.html" class="link-secondary">education</a>
+                  </li>
+                  <li>
+                      <a href="experience.html" class="link-secondary">experience</a>
+                  </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="row m-5" id="socials">
+            <div class="col text-end p-1">
+              <a href="https://www.linkedin.com/in/aldonaglebicka/" class="link-secondary">
+                <i class="bi bi-linkedin icon-socials"></i>
+              </a>
+            </div>
+            <div class="col text-start p-1">
+              <a href="https://github.com/doniurek" class="link-secondary">
+                <i class="bi bi-github icon-socials"></i>
+              </a>
+            </div>
+          </div>
         </div>
-    </header>
-    <img id="homepage" class="half-page-width" src="homepage.jpg" alt="Woman typing on a laptop">
-</body>
+        <div class="col-6 p-0">
+          <img src="homepage.jpg" id="homepage-img" class="img-fluid" alt="Woman typing on a laptop">
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
