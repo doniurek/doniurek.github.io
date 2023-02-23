@@ -26,6 +26,10 @@ p {
     font-size: 2vmin;
 }
 
+#aboutme {
+    line-height: 1.8;
+}
+
 li {
     font-weight: 300;
     list-style-type: none;
