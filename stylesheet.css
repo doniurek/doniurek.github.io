@@ -59,7 +59,6 @@ a#homepage-return:hover{
 }
 
 .content {
-    height: 100vh;
     display:grid;
 }
 
