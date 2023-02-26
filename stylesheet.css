@@ -81,6 +81,11 @@ a#homepage-return:hover{
     border-radius: 80px 0px 0px 80px;
 }
 
+.skills {
+    font-weight: 300;
+    font-size: 2vmin;
+}
+
 .icon-socials {
     font-size: 25px;
 }
