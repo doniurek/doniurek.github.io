@@ -60,6 +60,7 @@ a#homepage-return:hover{
 
 .content {
     display:grid;
+    height: 100vh;
 }
 
 .top-ornament > h1 {
