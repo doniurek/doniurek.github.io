@@ -7,12 +7,11 @@ body {
 }
 
 h1 {
-    font-size: 3vw;
+    font-size: 6vmin;
     color: #464C50;
     text-align: center;
     vertical-align: middle;
     line-height: 12vh;
-    margin: 0 1em 0 0;
 }
 
 h2 {
@@ -43,9 +42,10 @@ a {
 
 #homepage-return {
     margin: 0 0 0 2vw;
-    font-size: 4vw;
+    font-size: 6vmin;
     font-weight: 700;
     text-align: center;
+    line-height: 1
 }
 
 a#homepage-return:hover{
@@ -65,20 +65,26 @@ a#homepage-return:hover{
 
 .top-ornament > h1 {
     width: 22vw;
+    min-width: 36vmin;
     height: 12vh;
 
     background: #C6B0A2;
     border: none;
     border-radius: 0px 112px 112px 0px;
+
+    text-align: center;
 }
 
 .bottom-ornament > button {
     width: 8vw;
+    min-width: 14vmin;
     height: 12vh;
 
     background: #7DBCCE;
     border: none;
-    border-radius: 80px 0px 0px 80px;
+    border-radius: 112px 0px 0px 112px;
+
+    text-align: center;
 }
 
 .skills {
