@@ -1,101 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    background-color: #F6F7F9;
-    color: #464C50;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    margin: 0;
+  background-color: #f6f7f9;
+  color: #464c50;
+  font-family: Quicksand, sans-serif;
+  font-weight: 400;
 }
 
 h1 {
-    font-size: 6vmin;
-    color: #464C50;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 12vh;
+  font-size: 6vmin;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 12vh;
 }
 
 h2 {
-    font-weight: 700;
-    font-size: 2.5vmin;
-    margin-block-start: 0;
-    margin-block-end: 0;
+  font-weight: 700;
+  font-size: 2.5vmin;
 }
 
 p {
-    font-size: 2vmin;
-}
-
-#aboutme {
-    line-height: 1.8;
+  font-size: 2vmin;
 }
 
 li {
-    font-weight: 300;
-    list-style-type: none;
-    font-size: 2vmin;
+  font-weight: 300;
+  list-style-type: none;
+  font-size: 2vmin;
 }
 
 a {
-    text-decoration: none;
-    color: #464C50;
-}
-
-#homepage-return {
-    margin: 0 0 0 2vw;
-    font-size: 6vmin;
-    font-weight: 700;
-    text-align: center;
-    line-height: 1
-}
-
-a#homepage-return:hover{
-    color: #343a40;
-}
-
-#homepage-img {
-    height: 100vh;
-    width: 100vw;
-    object-fit: cover
+  text-decoration: none;
+  color: #464c50;
 }
 
 .content {
-    display:grid;
-    height: 100vh;
+  display: grid;
+  height: 100vh;
 }
 
 .top-ornament > h1 {
-    width: 22vw;
-    min-width: 36vmin;
-    height: 12vh;
-
-    background: #C6B0A2;
-    border: none;
-    border-radius: 0px 112px 112px 0px;
-
-    text-align: center;
+  width: 22vw;
+  min-width: 36vmin;
+  height: 12vh;
+  background: #c6b0a2;
+  border: none;
+  border-radius: 0 112px 112px 0;
+  text-align: center;
 }
 
 .bottom-ornament > button {
-    width: 8vw;
-    min-width: 14vmin;
-    height: 12vh;
-
-    background: #7DBCCE;
-    border: none;
-    border-radius: 112px 0px 0px 112px;
-
-    text-align: center;
+  width: 8vw;
+  min-width: 14vmin;
+  height: 12vh;
+  background: #7dbcce;
+  border: none;
+  border-radius: 112px 0 0 112px;
+  text-align: center;
 }
 
 .skills {
-    font-weight: 300;
-    font-size: 2vmin;
+  font-weight: 300;
+  font-size: 2vmin;
 }
 
 .icon-socials {
-    font-size: 25px;
+  font-size: 25px;
+}
+
+#aboutme {
+  line-height: 1.8;
+}
+
+#homepage-return {
+  margin-left: 2vw;
+  font-size: 6vmin;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1;
+}
+
+a#homepage-return:hover {
+  color: #343a40;
+}
+
+#homepage-img {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
 }
 
 #main > .row {
-    min-height: 100vh;
+  min-height: 100vh;
 }
